@@ -1,0 +1,9 @@
+pytorch_lightning==1.9.4
+torchvision==0.14.1
+torchmetrics==0.9.3
+pytorchvideo==0.1.5
+pandas
+matplotlib
+argparse
+tqdm
+opencv-python

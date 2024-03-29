@@ -1,0 +1,21 @@
+Picks
+- Pick-ID
+    - PickRGB.jpg - image of the picked object when it was in the container. 
+    - ToteWallRGB.jpg - image of the object after pick
+    - OnArmLowRGB.jpg - image of the object after pick
+    - FarTrayRGB.jpg - image of the object after pick
+    - container.json - list of all products in the container before the picking starts. The file contains Product-ID, text description, weight and dimensions for all the products.
+    - annotation.json - segment polygons for the object within the observation images, GT_ID (ground-truth Product-ID) for the object.
+
+Reference_Images
+- Product-ID
+    - 1.jpg
+    - 2.jpg
+    - …
+    - 6.jpg
+
+train-test-split.pickle
+- ‘trainset' - list of Pick-ID for training
+- ‘testset' - list of Pick-ID for evaluation
+- ‘trainset-objects' - list of Product-ID for training
+- ‘testset-objects' - list of Product-ID for evaluation
